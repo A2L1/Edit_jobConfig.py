@@ -1,0 +1,17 @@
+#Path of jobConfig.yml when located in the main.py directory
+filepath: jobConfig.yml
+
+Jobs:
+  #Jobs : ['Action1,'Action2']
+  Woodcutter: ['Break']
+  Miner: ['TNTBreak','Break','Place']
+  Builder: ['Place']
+  Digger: ['Break']
+  Farmer: ['Tame','Breed','Shear','Milk','Break','Place']
+  Hunter: ['Tame','Kill']
+  Explorer: ['Explore']
+  Crafter: ['Craft']
+  Fisherman: ['Fish']
+  Weaponsmith: ['Craft','Repair','Smelt']
+  Brewer: ['Brew']
+  Enchanter: ['Enchant']
